@@ -168,21 +168,64 @@ Model Evaluation: Evaluate the model using the test dataset.
 
 # Results and Discussion
 Best Model
+
 The best-performing models in the project are as follows:
+
 Logistic Regression with both SMOTE and ADASYN balanced data
+
 
 Hyper-tuned SVM with both SMOTE and ADASYN balanced data (Note: This model is resource-intensive)
 
 Hyper-tuned XGBoost with both SMOTE and ADASYN balanced data (Note: The model has lower sensitivity)
 
 Evaluation Metrics
-Accuracy
+Logistic Regression with ADASYN data 
 
-Sensitivity
+Accuracy:- 0.9123977388434394
 
-Specificity
+Sensitivity:- 0.9594594594594594
 
-ROC curve
+Specificity:- 0.9123160794888329
+
+Logistic Regression with SMOTE DATA
+
+Accuracy:- 0.9704247275961753
+
+Sensitivity:- 0.9121621621621622
+
+Specificity:- 0.9705258221466675
+
+Hyper-tunned SVN with ADASYN DATA
+
+Accuracy:- 0.9107709233055955
+
+Sensitivity:- 0.9594594594594594
+
+Specificity:- 0.9106864411747465
+
+Hyper-tunned SVN with SMOTE DATA
+
+Accuracy:- 0.9691490233254918
+
+Sensitivity:- 0.9121621621621622
+
+Specificity:- 0.9692479043320241
+
+Hyper-tunned XGBoost with ADASYN DATA
+
+Accuracy:- 0.9992743700478681
+
+Sensitivity:- 0.8445945945945946
+
+Specificity:- 0.999542763350724
+
+Hyper-tunned XGBoost with SMOTE DATA
+
+Accuracy:- 0.9993562960102056
+
+Sensitivity:- 0.8378378378378378
+
+Specificity:- 0.9996365554839088
 
 # Future Work
 Data Augmentation: Investigate techniques for augmenting the dataset to improve model performance.
