@@ -91,7 +91,6 @@ The best-performing models in the project are as follows:
 Logistic Regression with both SMOTE and ADASYN balanced data
 Hyper-tuned SVM with both SMOTE and ADASYN balanced data (Note: This model is resource-intensive)
 Hyper-tuned XGBoost with both SMOTE and ADASYN balanced data (Note: The model has lower sensitivity)
-
 Evaluation Metrics
 Metrics used are as follows:
 Accuracy
