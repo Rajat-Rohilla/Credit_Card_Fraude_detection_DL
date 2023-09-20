@@ -113,7 +113,50 @@ Matplotlib
 # Steps to Reproduce
 Clone the Repository: Clone the GitHub repository to your local machine.
 
-Install Dependencies: Install all the Python libraries and dependencies listed in the requirements.txt file.
+Install Dependencies: Install all the Python libraries and dependencies listed below down.
+import numpy as np
+
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+%matplotlib inline
+
+import seaborn as sns
+
+from sklearn import metrics
+
+from sklearn import preprocessing
+
+from sklearn import model_selection
+
+from sklearn.model_selection import train_test_split
+
+from sklearn.linear_model import LogisticRegression
+
+from sklearn.metrics import classification_report, confusion_matrix, roc_curve, roc_auc_score,auc
+
+from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.neighbors import KNeighborsClassifier
+
+from sklearn.model_selection import StratifiedKFold
+
+from sklearn.model_selection import RandomizedSearchCV
+
+from sklearn.svm import SVC
+
+from xgboost import XGBClassifier
+
+from sklearn.model_selection import cross_val_score
+
+from imblearn.over_sampling import SMOTE, ADASYN
+
+import warnings
+
+warnings.filterwarnings("ignore")
 
 Data Preparation: Download the dataset from Kaggle and place it in the designated folder.
 
