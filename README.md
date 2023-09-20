@@ -45,10 +45,15 @@ Class: 1 for fraudulent transactions and 0 for legitimate ones
 
 # Understanding and Defining Fraud
 Types of Credit Card Fraud
+
 Skimming
+
 Manipulation of genuine cards
+
 Creation of counterfeit cards
+
 Stealing/loss of credit cards
+
 Fraudulent telemarketing
 
 # Project Pipeline
